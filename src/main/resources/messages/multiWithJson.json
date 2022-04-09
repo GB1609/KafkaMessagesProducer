@@ -1,0 +1,121 @@
+{
+  "id": 0,
+  "testBool": true,
+  "testString": "red",
+  "testEnum": "CLUBS_ENUM",
+  "testUnion": "TEST_UNION",
+  "testArrayString": [
+    "three",
+    "four"
+  ],
+  "testArrayInt": [
+    16,
+    9
+  ],
+  "testArrayContainer": [
+    {
+      "id": "five",
+      "test": "test",
+      "testInt": 4,
+      "testContRecord": {
+        "testContRecordString": "testContRecordString",
+        "testContRecordBoolean": false
+      }
+    },
+    {
+      "id": "six",
+      "test": "test",
+      "testInt": 14,
+      "testContRecord": {
+        "testContRecordString": "testContRecordString2",
+        "testContRecordBoolean": true
+      }
+    }
+  ],
+  "extraFields": [
+    {
+      "fieldName": "testIntInJson",
+      "fieldValue": "5",
+      "fieldType": "int",
+      "fieldCategory": "extra"
+    },
+    {
+      "fieldName": "testBoolInJson",
+      "fieldValue": "true",
+      "fieldType": "boolean",
+      "fieldCategory": "augmented"
+    },
+    {
+      "fieldName": "testDoubleInJson",
+      "fieldValue": "17.5",
+      "fieldType": "double",
+      "fieldCategory": "extra"
+    },
+    {
+      "fieldName": "testArrayInJson",
+      "fieldValue": "[{\"id\":\"FIVE\",\"test\":\"test\"},{\"id\":null,\"test\":\"test\"},{\"id\":\"NINE\",\"test\":null}]",
+      "fieldType": "array",
+      "fieldCategory": "extra"
+    },
+    {
+      "fieldName": "testContainerJson/id",
+      "fieldValue": "15",
+      "fieldType": "int",
+      "fieldCategory": "extra"
+    },
+    {
+      "fieldName": "testContainerJson/function",
+      "fieldValue": "true",
+      "fieldType": "boolean",
+      "fieldCategory": "extra"
+    },
+    {
+      "fieldName": "testContainerJson/middle/inMiddle1",
+      "fieldValue": "true",
+      "fieldType": "boolean",
+      "fieldCategory": "extra"
+    },
+    {
+      "fieldName": "testContainerJson/middle/inMiddle2",
+      "fieldValue": "Naruto",
+      "fieldType": "string",
+      "fieldCategory": "extra"
+    },
+    {
+      "fieldName": "testContainerAugJson/id",
+      "fieldValue": "15",
+      "fieldType": "int",
+      "fieldCategory": "augmented"
+    },
+    {
+      "fieldName": "testContainerAugJson/function",
+      "fieldValue": "true",
+      "fieldType": "boolean",
+      "fieldCategory": "augmented"
+    },
+    {
+      "fieldName": "testContainerAugJson/middle/inMiddle1",
+      "fieldValue": "true",
+      "fieldType": "boolean",
+      "fieldCategory": "augmented"
+    },
+    {
+      "fieldName": "testContainerAugJson/middle/middlePiuMiddle/inMiddle2",
+      "fieldValue": "Naruto",
+      "fieldType": "string",
+      "fieldCategory": "augmented"
+    },
+    {
+      "fieldName": "testContainerAugJson/middle/middlePiuMiddle/inMiddle3/inMiddle4",
+      "fieldValue": "tuttiallarrembaggio2",
+      "fieldType": "string",
+      "fieldCategory": "augmented"
+    },
+    {
+      "fieldName": "testContainerAugJson/middle/middlePiuMiddle/inMiddle3/inMiddle5",
+      "fieldValue": "false",
+      "fieldType": "boolean",
+      "fieldCategory": "augmented"
+    }
+  ]
+}
